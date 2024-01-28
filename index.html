@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brawlhalla</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="estilos/global.css">
 </head>
 <body>
@@ -53,24 +54,41 @@
 
         <main>
             <div class="main__info">
-            <img
-            src="imagens/hatori-2.png" 
+            <img data-aos="fade-up"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="800"
+            src="imagens/hatori.webp" 
             alt="brawlhalla" width="250px">
 
-                <p>
+                <p  data-aos="fade-up"
+                data-aos-anchor="#example-anchor"
+                data-aos-offset="500"
+                data-aos-delay="300"
+                data-aos-duration="800"
+                >
                 Brawlhalla é um jogo épico de combate em plataformas e totalmente gratuito. Junta-te em sessões de combate onde vale tudo, participa em partidas por ranking ou cria uma sala personalizada para ti e os teus amigos. 
                 </p>
 
-                <div>
+                <div data-aos="fade-up"
+                data-aos-anchor="#example-anchor"
+                data-aos-offset="500"
+                data-aos-delay="600"
+                data-aos-duration="800">
                 <a href="https://www.brawlhalla.com/">Jogue agora</a>
-                    <button>
-                        Baixar
-                    </button>
                 </div>
             </div>
             <img src="" width="500px">
-            <img src="imagens/machado.png" class="machado">
-        </main>
+            <img src="imagens/machado.png" class="machado" 
+            data-aos="fade-up"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-delay="500"
+            data-aos-duration="800" >        </main>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </body>
+<script>
+  AOS.init();
+</script>
 </html>
